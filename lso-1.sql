@@ -16,7 +16,7 @@ Lines of Commenting  **/
 use uppercase for keywords. **/
 
 create table co_employess (
-#NDSCD  - format for defining columns when creating table
+#NDSCD  - format for defining columns when creating table. Name, Data Type, Size, Constraint, Default. 
 id int primary key auto_increment,   # IF AUTO_INCREMENT constraint- that column must have unique or primary constraint
 /**   FLOAT(m, d)  - uses 4 bytes of storage
  FLOAT(5, 3), it will
